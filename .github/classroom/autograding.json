@@ -16,7 +16,7 @@
       "run": "java -classpath .:target/dependency/* Main",
       "input": "a",
       "output": "1",
-      "comparison": "exact",
+      "comparison": "included",
       "timeout": 10,
       "points": null
     }

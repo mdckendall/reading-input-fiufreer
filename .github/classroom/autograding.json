@@ -2,8 +2,8 @@
   "tests": [
     {
       "name": "Test 1",
-      "setup": "",
-      "run": "javac Main.java java Main",
+      "setup": "javac Main.java",
+      "run": "java Main",
       "input": "hello",
       "output": "5",
       "comparison": "included",
@@ -12,8 +12,8 @@
     },
     {
       "name": "Test 2",
-      "setup": "",
-      "run": "javac Main.java java Main",
+      "setup": "javac Main.java",
+      "run": "java Main",
       "input": "a",
       "output": "1",
       "comparison": "exact",

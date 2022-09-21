@@ -3,7 +3,7 @@
     {
       "name": "Test 1",
       "setup": "javac Main.java",
-      "run": "java Main",
+      "run": "java -classpath .:target/dependency/* Main",
       "input": "hello",
       "output": "5",
       "comparison": "included",
@@ -13,7 +13,7 @@
     {
       "name": "Test 2",
       "setup": "javac Main.java",
-      "run": "java Main",
+      "run": "java -classpath .:target/dependency/* Main",
       "input": "a",
       "output": "1",
       "comparison": "exact",
